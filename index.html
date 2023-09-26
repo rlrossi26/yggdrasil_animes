@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yggdrasil Animes</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <style>
+
+        header {
+            background-color: rgb(226, 155, 23);
+            padding: 10px;
+            position: sticky;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+
+        footer {
+            padding: 15px;
+            background-color: rgb(226, 155, 23);
+        }
+
+        .card {
+            margin-bottom: 20px;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <header id="cabecalho" class="mb-4 mt-3">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1 class="h3">Yggdrasil Animes</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="navbar-nav nav nav-pills">
+                        <li class="nav-item"><a class="nav-link" href="#new">Novidades</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#more-watched">Mais Assistidos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="carousel" class="mb-5">
+        <div class="container">
+            <h2 class="mb-4" id="new">Novidades</h2>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                        class="active"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./images/kimetsu.png" class="d-block h-50 w-100">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/level-1.png" class="d-block h-50 w-100">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/zom.png" class="d-block h-50 w-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class=" container text-start w-50 fs-6 mb-5">
+            <h2 class="h3 mb-4" id="more-watched">Mais Assistidos</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class="col">
+                    <div class="card">
+                        <img src="./images/goblin.jpe" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Goblin Slayer</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./images/fairaw.jpe" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">The Faraway Paladin</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./images/one.jpe" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">One Piece</h5>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./images/spy.jpe" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Spy x Family</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./images/tate.jpe" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">The Rising of Shield Hero</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./images/chaisaw.jpe" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Chaisaw Man</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center">
+        2023 &copy; - Yggdrasil Animes - Todos os direitos reservados
+    </footer>
+
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
